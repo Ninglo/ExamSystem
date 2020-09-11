@@ -1,0 +1,136 @@
+*{font-family:微软雅黑;}
+
+
+/*最小化按钮*/
+QPushButton#minButton
+{
+	background:#F7D674;
+	border-radius:5px;
+}
+ 
+QPushButton#minButton:hover
+{
+	background:yellow;
+}
+
+/*关闭按钮*/
+QPushButton#closeButton
+{
+	background:#F76677;
+	border-radius:5px;
+}
+ 
+QPushButton#closeButton:hover
+{
+	background:red;
+}
+
+/*单选按钮*/
+QRadioButton
+{
+	font-size: 16px
+}
+
+/*标签*/
+QLabel
+{
+	font-size: 16px
+}
+
+/*模拟考试按钮*/
+QPushButton#button_exam
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:75px;
+	font-size:25px;
+}
+ 
+QPushButton#button_exam:hover
+{
+	color:white;
+	background-color:#D6ECFA;
+}
+ 
+QPushButton#button_exam:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*专项练习按钮*/
+QPushButton#button_exercise
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:75px;
+	font-size:25px;
+}
+ 
+QPushButton#button_exercise:hover
+{
+	color:white;
+	background-color:#D6ECFA;
+}
+ 
+QPushButton#button_exercise:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*错题集按钮*/
+QPushButton#button_wrong
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:75px;
+	font-size:25px;
+}
+ 
+QPushButton#button_wrong:hover
+{
+	color:white;
+	background-color:#D6ECFA;
+}
+ 
+QPushButton#button_wrong:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*收藏集按钮*/
+QPushButton#button_star
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:75px;
+	font-size:25px;
+}
+ 
+QPushButton#button_star:hover
+{
+	color:white;
+	background-color:#D6ECFA;
+}
+ 
+QPushButton#button_star:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*窗体背景色*/
+QWidget
+{
+	background-color:#FFFFFF;
+}

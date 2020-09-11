@@ -1,0 +1,94 @@
+*{font-family:微软雅黑;}
+
+/*文本框*/
+QLineEdit
+{
+	background:white;
+    padding-left:5px ;
+	padding-top:1px ;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+	border: 1px solid rgb(209 , 209 , 209);
+    border-top:transparent;
+	border-left:transparent;
+	border-right:transparent;
+}
+QLineEdit:hover
+{
+	padding-top:0px ;
+    border: 1px solid rgb(21 , 131 , 221);
+}
+ 
+/*登陆按钮*/
+QPushButton#loginButton
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:5px;
+}
+ 
+QPushButton#loginButton:hover
+{
+	color:white;
+	background-color:#D6ECFA;
+}
+ 
+QPushButton#loginButton:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*注册按钮*/
+QPushButton#registerButton
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:5px;
+}
+ 
+QPushButton#registerButton:hover
+{
+	color:white;
+	background-color:#D6ECFA;
+}
+ 
+QPushButton#registerButton:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*关闭按钮*/
+QPushButton#closeButton
+{
+	background:#F76677;
+	border-radius:5px;
+}
+ 
+QPushButton#closeButton:hover
+{
+	background:red;
+}
+
+/*最小化按钮*/
+QPushButton#minButton
+{
+	background:#F7D674;
+	border-radius:5px;
+}
+ 
+QPushButton#minButton:hover
+{
+	background:yellow;
+}
+
+/*窗体背景色*/
+QWidget
+{
+	background-color:#FFFFFF;
+}

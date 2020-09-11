@@ -1,0 +1,189 @@
+*{font-family:微软雅黑;}
+
+/*单选按钮*/
+QRadioButton
+{
+	font-size: 16px
+}
+
+/*多选按钮*/
+QCheckBox
+{
+	font-size: 16px
+}
+
+/*上一题按钮*/
+QPushButton#pushButton
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:5px;
+}
+ 
+QPushButton#pushButton:hover
+{
+	color:white;
+	background-color:#D6ECFA;
+}
+ 
+QPushButton#pushButton:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*下一题按钮*/
+QPushButton#pushButton_2
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:5px;
+}
+ 
+QPushButton#pushButton_2:hover
+{
+	color:white;
+	background-color:#D6ECFA;
+}
+ 
+QPushButton#pushButton_2:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*检查、交卷按钮*/
+QPushButton#pushButton_3
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:5px;
+}
+ 
+QPushButton#pushButton_3:hover
+{
+	color:white;
+	background-color:#D6ECFA;
+}
+ 
+QPushButton#pushButton_3:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*收藏按钮*/
+QPushButton#pushButton_4
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:5px;
+}
+ 
+QPushButton#pushButton_4:hover
+{
+	color:white;
+	background-color:#D6ECFA;
+}
+ 
+QPushButton#pushButton_4:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*退出按钮*/
+QPushButton#pushButton_5
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:5px;
+}
+ 
+QPushButton#pushButton_5:hover
+{
+	color:white;
+	background-color:#D6ECFA;
+}
+ 
+QPushButton#pushButton_5:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*滚动条*/
+QScrollBar:vertical
+{
+    width:15px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+
+QScrollBar::handle:vertical
+{
+    width:15px;
+    background:rgba(0,0,0,25%);
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::handle:vertical:hover
+{
+    width:15px;
+    background:rgba(0,0,0,50%);
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::add-line:vertical
+{
+    height:16px;
+	width:15px;
+    border-image:url(./images/downArrow2.png);
+    subcontrol-position:bottom;
+}
+
+QScrollBar::sub-line:vertical
+{
+    height:16px;
+	width:15px;
+    border-image:url(./images/upArrow1.png);
+    subcontrol-position:top;
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+
+/*列表框*/
+QListWidget
+{
+	font-size: 16px;
+}
+
+/*文本框*/
+QTextEdit
+{
+	font-size: 15px;
+}
+
+/*窗体背景色*/
+QWidget
+{
+	background-color:#FFFFFF;
+}

@@ -1,0 +1,162 @@
+*{font-family:微软雅黑;}
+
+/*多选按钮*/
+QCheckBox
+{
+	font-size: 15px
+}
+
+/*标签*/
+QLabel#label_5
+{
+	font-size: 15px
+}
+
+QLabel#label_6
+{
+	font-size: 15px
+}
+
+QLabel#label_7
+{
+	font-size: 15px
+}
+
+QLabel#label_2
+{
+	font-size: 17px
+}
+
+QLabel#label_3
+{
+	font-size: 17px
+}
+
+QLabel#label
+{
+	font-size: 22px
+}
+
+/*确定按钮 (44,137,255)*/
+QPushButton#pushButton
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:5px;
+}
+ 
+QPushButton#pushButton:hover
+{
+	color:white;
+	background-color:#D6ECFA;
+}
+ 
+QPushButton#pushButton:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*取消按钮*/
+QPushButton#pushButton_2
+{
+	color:white;
+	background-color:rgb(14 , 150 , 254);
+	border-radius:5px;
+}
+ 
+QPushButton#pushButton_2:hover
+{
+	color:white;
+	background-color:#D6ECFA;
+}
+ 
+QPushButton#pushButton_2:pressed
+{
+	color:white;
+	background-color:rgb(14 , 135 , 228);
+	padding-left:3px;
+	padding-top:3px;
+}
+
+/*滚动条*/
+QScrollBar:vertical
+{
+    width:15px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+
+QScrollBar::handle:vertical
+{
+    width:15px;
+    background:rgba(0,0,0,25%);
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::handle:vertical:hover
+{
+    width:15px;
+    background:rgba(0,0,0,50%);
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::add-line:vertical
+{
+    height:16px;
+	width:15px;
+    border-image:url(:./images/downArrow.png);
+    subcontrol-position:bottom;
+}
+
+QScrollBar::sub-line:vertical
+{
+    height:16px;
+	width:15px;
+    border-image:url(:./images/upArrow.png);
+    subcontrol-position:top;
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+
+/*下拉列表框*/
+QComboBox
+{
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 8px 1px 3px;
+}
+
+
+QComboBox::drop-down
+{
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+QComboBox::down-arrow {
+    image: url(./images/downArrow1.png);
+}
+
+/*窗体背景色*/
+QWidget
+{
+	background-color:#FFFFFF;
+}
