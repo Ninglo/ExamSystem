@@ -94,7 +94,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "鸿蒙考试系统"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "思政考试系统"))
         self.button_exam.setText(_translate("MainWindow", "模拟考试"))
         self.button_exercise.setText(_translate("MainWindow", "专项练习"))
         self.button_wrong.setText(_translate("MainWindow", "错题集"))

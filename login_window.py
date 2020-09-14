@@ -110,8 +110,8 @@ class Ui_login_window(object):
 
     def retranslateUi(self, login_window):
         _translate = QtCore.QCoreApplication.translate
-        login_window.setWindowTitle(_translate("login_window", "鸿蒙考试系统"))
-        self.titleLabel.setText(_translate("login_window", "鸿蒙考试系统"))
+        login_window.setWindowTitle(_translate("login_window", "思政考试系统"))
+        self.titleLabel.setText(_translate("login_window", "思政考试系统"))
         self.loginButton.setText(_translate("login_window", "登录"))
         self.registerButton.setText(_translate("login_window", "注册"))
         self.lineEditName.setPlaceholderText(_translate("login_window", "用户名"))
